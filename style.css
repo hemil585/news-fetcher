@@ -13,8 +13,8 @@ body {
 .search-bar {
   display: flex;
   align-items: center;
-  background-color: #fff;
-  border: 1px solid #ccc;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(204, 204, 204);
   border-radius: 20px;
   width: 40%;
   padding: 5px 10px;
@@ -32,8 +32,8 @@ body {
 }
 
 .search-bar button[type="submit"] {
-  background-color: #4caf50;
-  color: #fff;
+  background-color: rgb(76, 175, 80);
+  color: rgb(255, 255, 255);
   border: none;
   padding: 10px 14px;
   border-radius: 20px;
@@ -41,7 +41,7 @@ body {
 }
 
 .search-bar button[type="submit"]:hover {
-  background-color: #3e8e41;
+  background-color: rgb(62, 142, 65);
 }
 
 .container {
