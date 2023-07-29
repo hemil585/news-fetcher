@@ -40,8 +40,8 @@ searchBtnEl.addEventListener('click', (event) => {
           let img = document.createElement('img');
           img.setAttribute('src', myData.urlToImage);
           img.setAttribute(
-            'alt',
-            'Missing image, but don\'t worry - the content is still great'
+            'alt', 
+            "Missing image, but don\'t worry - the content is still great"
           );
           img.setAttribute('width', '300');
           img.setAttribute('height', '150');
@@ -78,7 +78,7 @@ searchBtnEl.addEventListener('click', (event) => {
 
           if (desc.textContent == '') {
             desc.textContent =
-              'We\'re sorry, but the content you requested could not be loaded at this time.';
+              "We\'re sorry, but the content you requested could not be loaded at this time.";
           }
         }
       }
