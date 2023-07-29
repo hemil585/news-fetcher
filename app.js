@@ -26,7 +26,7 @@ searchBtnEl.addEventListener("click", (event) => {
       return response.json();
     })
     .then((data) => {
-      console.log(data);
+      console.log(data)
 
       if (data.articles.length === 0) {
         alert("No data available for this topic");
