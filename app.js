@@ -15,7 +15,7 @@ searchBtnEl.addEventListener("click", (event) => {
   clearNews();
 
   const value = topicEl.value;
-  const apiKey = "My API Key";
+  const apiKey = "b616914963c4445fa9a76dc8b77d46af";
   const apiUrl = `https://newsapi.org/v2/top-headlines?q=${value}&apiKey=${apiKey}`;
 
   fetch(apiUrl)
